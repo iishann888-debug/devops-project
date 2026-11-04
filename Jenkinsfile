@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "ishan888/flask-app"
+        DOCKER_IMAGE = "ishan888/devops-cicd-demo"
         DOCKER_TAG = "latest"
     }
 
